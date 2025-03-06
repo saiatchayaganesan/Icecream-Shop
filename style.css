@@ -1,0 +1,150 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    background-color: #fff5e6;
+    color: #333;
+}
+
+/* Header */
+header {
+    background-color: #ff6f61;
+    padding: 15px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/hero.jpg') no-repeat center center/cover;
+    padding: 100px;
+    color: white;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.6);
+}
+
+.explore-btn {
+    background: #ff6f61;
+    border: none;
+    padding: 10px 20px;
+    color: white;
+    font-size: 18px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: transform 0.3s ease;
+}
+
+.explore-btn:hover {
+    transform: scale(1.1);
+}
+
+/* Menu Section */
+.menu-items {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.item {
+    background: white;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+}
+
+.item:hover {
+    transform: scale(1.1);
+}
+
+.item a {
+    text-decoration: none;
+    color: black;
+    display: block;
+}
+
+.item img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    transition: transform 0.3s;
+}
+
+.item img:hover {
+    transform: scale(1.1);
+}
+
+.item p {
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+
+/* Ice Cream Detail Pages */
+.details {
+    padding: 20px;
+}
+
+.details img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.details h2 {
+    color: #ff6f61;
+}
+
+.details ul {
+    list-style: none;
+    padding: 0;
+}
+
+.details ul li {
+    background: #fff;
+    padding: 10px;
+    margin: 5px auto;
+    width: 50%;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.details p {
+    width: 60%;
+    margin: 10px auto;
+    font-size: 18px;
+}
+
+/* Footer */
+footer {
+    background-color: #ff6f61;
+    color: white;
+    padding: 10px;
+}
